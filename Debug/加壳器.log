@@ -1,0 +1,24 @@
+﻿生成启动时间为 2018/12/7 19:33:21。
+     1>项目“E:\VS项目\加壳器\加壳器.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MasterWindows.cpp
+         MasterWindows.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS项目\加壳器\Debug\加壳器.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\VS项目\加壳器\Debug\加壳器.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS项目\加壳器\Debug\加壳器.lib" /MACHINE:X86 "Debug\加壳器.res"
+         Debug\AddSection.obj
+         Debug\CompressionData.obj
+         Debug\HashOfFunction.obj
+         Debug\lz4.obj
+         Debug\studData.obj
+         Debug\MasterWindows.obj
+         Debug\ProgramEntrance.obj
+         Debug\puPEinfoData.obj
+         Debug\SectionInfo.obj
+         Debug\UnShell.obj
+         加壳器.vcxproj -> E:\VS项目\加壳器\Debug\加壳器.exe
+     1>已完成生成项目“E:\VS项目\加壳器\加壳器.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.90

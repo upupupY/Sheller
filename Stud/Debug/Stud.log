@@ -1,0 +1,23 @@
+﻿生成启动时间为 2018/12/6 15:27:27。
+     1>项目“E:\VS项目\加壳器\Stud\Stud.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D STUD_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Stud.cpp
+         Stud.cpp
+     1>e:\vs项目\加壳器\stud\stud.cpp(115): warning C4731: “puGetModule”: 框架指针寄存器“ebp”被内联程序集代码修改
+     1>e:\vs项目\加壳器\stud\stud.cpp(148): warning C4731: “puGetModule”: 框架指针寄存器“ebp”被内联程序集代码修改
+     1>e:\vs项目\加壳器\stud\stud.cpp(154): warning C4731: “puGetModule”: 框架指针寄存器“ebp”被内联程序集代码修改
+     1>e:\vs项目\加壳器\stud\stud.cpp(197): warning C4731: “puGetModule”: 框架指针寄存器“ebp”被内联程序集代码修改
+     1>e:\vs项目\加壳器\stud\stud.cpp(221): warning C4731: “puGetProcAddress”: 框架指针寄存器“ebp”被内联程序集代码修改
+     1>e:\vs项目\加壳器\stud\stud.cpp(295): warning C4731: “puGetProcAddress”: 框架指针寄存器“ebp”被内联程序集代码修改
+     1>e:\vs项目\加壳器\stud\stud.cpp(301): warning C4731: “puGetProcAddress”: 框架指针寄存器“ebp”被内联程序集代码修改
+     1>e:\vs项目\加壳器\stud\stud.cpp(345): warning C4731: “puGetProcAddress”: 框架指针寄存器“ebp”被内联程序集代码修改
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS项目\加壳器\Debug\Stud.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\VS项目\加壳器\Debug\Stud.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS项目\加壳器\Debug\Stud.lib" /MACHINE:X86 /DLL Debug\Stud.obj
+            正在创建库 E:\VS项目\加壳器\Debug\Stud.lib 和对象 E:\VS项目\加壳器\Debug\Stud.exp
+     1>Stud.obj : warning LNK4254: 节“.data”(C0000040)合并到具有不同特性的“.text”(60000020)
+         Stud.vcxproj -> E:\VS项目\加壳器\Debug\Stud.dll
+     1>已完成生成项目“E:\VS项目\加壳器\Stud\Stud.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.95
